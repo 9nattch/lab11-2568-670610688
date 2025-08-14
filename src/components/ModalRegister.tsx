@@ -93,7 +93,7 @@ export default function ModalRegister() {
     
     if (!gender){
       genderOk = false;
-      setGenderEror(true)
+      setGenderEror(true);
     }
 
     if (fnameOk && lnameOk && planOk && genderOk) {
